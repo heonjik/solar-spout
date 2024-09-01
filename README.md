@@ -1,18 +1,17 @@
 # Solar Spout
 * Leverage local, grid-agnostic solar energy to enable water heating.
 * Automated water movement through a piped system, including automated temperature-based valves.
-*  
 
 ## Automation 1 (boiling &rarr; hot)​
 1. Check if the water in the boiling tank is boiled enough.​
-    1. If the water is boiled enough, move to step 2.​
-    2. If the water is not boiled enough, keep in step 1.​
-2. Count up to 10 seconds​
+ 1. If the water is boiled enough, move to step 2.​
+ 2. If the water is not boiled enough, keep in step 1.​
+3. Count up to 10 seconds​
     1. If the water gets cold while counting, go back to step 1.​
     2. If the water's temperature maintains for 10 seconds, move to step 4.​
-3. Open the valve​
+4. Open the valve​
     1. Keep opening the valve until all the water in the boiling tank is dispensed to the hot tank (calculate the flow rate)​
-4. Close the valve​
+5. Close the valve​
 
 ## Automation 2 (hot &rarr; cold)​
 1. Check if the water in the hot water tank is cooled enough.​
@@ -27,5 +26,14 @@
 
 ## Diagrams
 ### Circuit Diagram
+![image](circuit.png)
 
 ### State Diagram
+![image](state-diagram.jpg)
+
+## Performance
+### Boiling to Hot
+![image](boiling-to-hot.jpg)
+
+### Hot to Cold
+![image](hot-to-cold.jpg)
