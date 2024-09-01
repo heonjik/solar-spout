@@ -4,8 +4,8 @@
 
 ## Automation 1 (boiling &rarr; hot)​
 1. Check if the water in the boiling tank is boiled enough.​
-  1. If the water is boiled enough, move to step 2.​
-  2. If the water is not boiled enough, keep in step 1.​
+    1. If the water is boiled enough, move to step 2.​
+    2. If the water is not boiled enough, keep in step 1.​
 3. Count up to 10 seconds​
     1. If the water gets cold while counting, go back to step 1.​
     2. If the water's temperature maintains for 10 seconds, move to step 4.​
@@ -33,7 +33,7 @@
 
 ## Performance
 ### Boiling to Hot
-<img src="boiling-to-hot.jpg" alt="boiling-to-hot" width="200"/>
+<img src="boiling-to-hot.jpg" alt="boiling-to-hot" width="400"/>
 
 ### Hot to Cold
-![image](hot-to-cold.jpg)
+<img src="hot-to-cold.jpg" alt="hot-to-cold" width="400"/>
